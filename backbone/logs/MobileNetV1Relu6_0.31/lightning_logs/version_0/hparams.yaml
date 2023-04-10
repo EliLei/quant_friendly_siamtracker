@@ -1,0 +1,7 @@
+epoch: 5
+input_size: !!python/tuple
+- 3
+- 224
+- 224
+nettype: MobileNetV1Relu6
+width_mult: 0.31

@@ -1,0 +1,7 @@
+epoch: 60
+input_size: !!python/tuple
+- 3
+- 224
+- 224
+nettype: ShuffleNetV1
+width_mult: 0.64
