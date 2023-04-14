@@ -22,12 +22,17 @@ python result_plot.py
 参考 [[pytracking]](https://github.com/visionml/pytracking)
 ### 文件目录结构
 .\ltr 模型与训练
-.\ltr\onnx
+
 .\ltr\onnx ONNX导出
+
 .\ltr\calibration 校准数据集
+
 .\ltr\pretrained_networks 对比方法的checkpoint
+
 .\pytracking 测试与验证
+
 .\pytracking\misctools 实用工具
+
 .\pytracking\tracking_results 测试结果
 
 ### 训练
@@ -83,7 +88,7 @@ python .\pytracking\run_tracker.py starklightning quant --dataset_name DATASET -
 
 ### 显示结果
 ```
-.\pytracking\misctools\analysis_results.py
+python .\pytracking\misctools\analysis_results.py
 ```
 
 ### 量化数据显示
